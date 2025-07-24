@@ -1,60 +1,91 @@
-*{
-    padding: 0;
+/* General Reset and Body Styles */
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #F5F8FF;
-    max-width: 1440px;
 
-}
-.note-serif{
+body {
+    background-color: #F5F8FF;
     font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    
-  }
-/* body{
-    max-width: 1440px;
-    background: #ffffff;
-    margin: auto;
-} */
-header{
+}
+
+/* Reusable Container for Centering Content */
+.container {
     max-width: 1140px;
-    margin: 0px auto;
-    
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding for smaller screens */
 }
-.logo img {
-    max-height: 70px;
-}
-nav{
+
+/* --- Header and Navigation --- */
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 75px;
-    padding: 30px 10px;
-    margin-top: 20px;
+    padding: 20px 0;
+    min-height: 75px;
 }
-.nav-icons>ul{
+
+.logo img {
+    max-height: 60px;
+}
+
+.nav-links {
     display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px; /* Use gap for spacing between items */
 }
-ul>li{
-    margin-left: 20px;
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
     font-weight: 500;
-
-}
-.cart{
-    margin: 0px 30px;
 }
 
+.cart span {
+    margin-left: 8px;
+}
 
-@media (max-width:576px) {
-    .hide-li{
+/* --- Banner Section --- */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; /* Space between text and image */
+    margin-top: 60px;
+}
+
+.text-content,
+.image-content {
+    flex: 1; /* Allow both children to share space equally */
+}
+
+.text-content p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.text-highlight {
+    color: #E95A08;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Media Query for Mobile --- */
+@media (max-width: 576px) {
+    .hide-on-mobile {
         display: none;
     }
-    .cart{
-        margin: 0;
-
+    
+    .banner-container {
+        flex-direction: column-reverse; /* Stack image on top of text */
+        /* text-align: center; */
+        margin-top: 30px;
     }
 }
