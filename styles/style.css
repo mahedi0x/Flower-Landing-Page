@@ -222,17 +222,17 @@ nav li, .footer-content li {
 .card1{
     background-image: linear-gradient(rgba(64, 61, 61, 0.6),
     rgba(0, 0, 0, 0.4)),
-     url("/assets/deal-ana.png");
+     url('/assets/deal-ana.png');
 }
 .card2{
     background-image: linear-gradient(rgba(64, 61, 61, 0.6),
     rgba(0, 0, 0, 0.4)),
-     url("/assets/deal-bloom.png");
+     url('/assets/deal-bloom.png');
 }
 .card3{
     background-image: linear-gradient(rgba(64, 61, 61, 0.6),
     rgba(0, 0, 0, 0.4)),
-     url("/assets/deal-zabo.png");
+     url('/assets/deal-zabo.png');
   
 }
 
@@ -286,7 +286,7 @@ nav li, .footer-content li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("/assets/news-letter-bg.png");
+    background-image: url('/assets/news-letter-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 30px;
