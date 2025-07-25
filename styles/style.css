@@ -220,19 +220,19 @@ nav li, .footer-content li {
 
 
 .card1{
-    background-image: linear-gradient(rgba(64, 61, 61, 0.6),
-    rgba(0, 0, 0, 0.4)),
-     url('/assets/deal-ana.png');
+    background-image: url('../assets/deal-ana.png'),
+    linear-gradient(rgba(64, 61, 61, 0.6),
+    rgba(0, 0, 0, 0.4));
 }
 .card2{
     background-image: linear-gradient(rgba(64, 61, 61, 0.6),
     rgba(0, 0, 0, 0.4)),
-     url('/assets/deal-bloom.png');
+     url('../assets/deal-bloom.png');
 }
 .card3{
     background-image: linear-gradient(rgba(64, 61, 61, 0.6),
     rgba(0, 0, 0, 0.4)),
-     url('/assets/deal-zabo.png');
+     url('../assets/deal-zabo.png');
   
 }
 
