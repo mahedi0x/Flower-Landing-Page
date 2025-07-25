@@ -118,9 +118,8 @@ nav li {
 /* --- Plant Card Styling --- */
 .plant-card {
     background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+ 
+    margin-top: 50px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -134,11 +133,13 @@ nav li {
     background-color: #f5f5f5; 
     /* padding: 20px; */
 }
-
+/* -------------------------card imag-------------------------- */
 .card-image-container img {
     width: 100%;
-    height: auto;
+    /* width: 300px; */
+    height: 320px;
     display: block;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-content {
