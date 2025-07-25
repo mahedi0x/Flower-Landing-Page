@@ -43,8 +43,9 @@ nav li,
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: #535353;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .nav-links a:hover {
